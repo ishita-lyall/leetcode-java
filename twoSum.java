@@ -8,7 +8,6 @@ class Solution {
                 result[0] = i;
                 result[1] = map.get(target - nums[i]);
                 return result;
-                // return new int[]{i, map.get(target - nums[i]};
             }
             map.put(nums[i], i);
         }
